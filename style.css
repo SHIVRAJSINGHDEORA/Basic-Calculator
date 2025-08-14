@@ -1,0 +1,84 @@
+body {
+    background-color: #ECD5BB;
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hey {
+    height: 200px ;
+    width: 280px;
+    font-size: 30px;
+    color: #710117;
+}
+
+.body {
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px white;
+    background-color: rgba(255, 255, 255, 0.382);
+}
+
+.input {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+span{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    color: aliceblue;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: #F36870;
+    
+}
+
+.equal {
+    background-color: #EEBE35;
+}
+
+.opretion{
+    background-color: #0C6980;
+}
+
+input {
+    height: 50px;
+    width: 345px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    font-size: 16px;
+    text-align: right;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    outline: none;          /* Removes the blue border on focus */
+    border: none; /* Keep a normal border so it doesn’t disappear */
+}
